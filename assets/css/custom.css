@@ -1,0 +1,397 @@
+.jeg_nav_row .jeg_rss{
+    display: none;
+}
+
+.jeg_main_menu>li>a {
+    font-size: 22px;
+}
+.jeg_menu.jeg_main_menu .menu-item-object-category.jeg_megamenu>a:after, .jeg_menu.jeg_main_menu>.menu-item-has-children>a:after {
+    font-size: 16px;
+}
+.jeg_pl_sm .jeg_post_title, .jeg_pl_lg_1 .jeg_post_title, .jeg_pl_md_5 .jeg_post_title,
+.jeg_pl_md_box .jeg_post_title{
+    line-height: 110%;
+    font-size: 20px;
+}
+.popularpost_item .jeg_post_title {
+    font-size: 20px;
+}
+.single .content-inner {
+    font-size: 16px;
+    line-height: 165%;
+}
+.jeg_post_excerpt p {
+    font-size: 16px;
+    line-height: 155%;
+    user-select: none;
+}
+.content-inner p {
+    font-size: 18px;
+    line-height: 165%;
+    user-select: none;
+}
+.jeg_slider_type_1 .jeg_caption_container {
+    padding: 0 5px 0 30px;
+    max-width: 100%;
+}
+#breadcrumbs {
+    font-size: 15px;
+}
+.jeg_breadcrumbs .breadcrumb_last_link a {
+    color: #f70d28;
+    font-weight: bold;
+}
+#breadcrumbs .breadcrumb_last_link a {
+    color: #343434;
+}
+.jeg_newsfeed .jeg_post_title {
+    font-size: 17px;
+}
+.heateor_sss_whatsapp .heateor_sss_svg {
+    background-color: #00bd07 !important;
+}
+.jeg_meta_date, .jeg_meta_date a {
+    color: #333;
+    font-size: 14px;
+}
+.jeg_sidebar  .jeg_meta_date {
+    font-size: 13px;
+}
+.jeg_footer .jeg_meta_date, .jeg_footer .jeg_meta_date a {
+    color: #fff;
+    font-size: 13px;
+}
+.jeg_slide_caption .jeg_meta_date, .jeg_slide_caption .jeg_meta_date a {
+    color: #fff;
+    font-size: 14px;
+}
+.jeg_pl_md_box .jeg_meta_date, .jeg_pl_md_box .jeg_meta_date a {
+    color: #fff;
+}
+.jeg_footer h3.jeg_post_title {
+    font-weight: normal;
+}
+.heateorSssSharingArrow {
+    margin: 10px !important;
+}
+.heateorSssPushIn {
+    margin-left: 54px !important;
+}
+.jeg_slider_type_1 .jeg_slide_caption .jeg_post_title {
+    line-height: 110%;
+    margin-bottom: 5px;
+}
+.jeg_pl_md_2 .jeg_post_title, .jeg_pl_md_3 .jeg_post_title {
+    line-height: 110%;
+}
+.jeg_postblock_37 .jeg_post_title, .jeg_pl_md_1 .jeg_post_title {
+    font-size: 20px;
+    line-height: 110%;
+}
+.jeg_share_top_container {
+    display: none;
+}
+.jeg_hero_style_1 .jeg_post_title {
+    line-height: 110%;
+}
+.jeg_hero_style_1 .jeg_postblock_content {
+    padding: 0 20px 20px;
+}
+.socials_widget a {
+    vertical-align: top;
+}
+.socials_widget a.jeg_vk {
+    background: hsla(0,0%,100%,.15) url('/wp-content/uploads/2023/08/sharechat-48.png') no-repeat;
+    background-position: center;
+    height: 38px;
+}
+.socials_widget a.jeg_odnoklassniki {
+    background: hsla(0,0%,100%,.15) url('/wp-content/uploads/2023/08/whatsapp.png') no-repeat;
+    background-position: center;
+    height: 38px;
+}
+.jeg_header .socials_widget a.jeg_vk, .jeg_header .socials_widget a.jeg_odnoklassniki {
+    background-color: #ffa233;
+}
+.socials_widget a.jeg_vk i:before, .socials_widget a.jeg_odnoklassniki i:before {
+    display: none;
+}
+.jeg_footer .socials_widget {
+    display: flex;
+    align-items: center;
+}
+.jeg_footer.dark .socials_widget:not(.nobg) a:hover .fa, .jeg_footer .footer_dark .socials_widget:not(.nobg) a:hover .fa {
+    background: hsla(0,0%,100%,.15);
+}
+.jeg_block_title {
+    font-size: 20px;
+}
+.jeg_footer .socials_widget a .fa, .jeg_header .socials_widget a .fa {
+    font-size: 19px;
+}
+.jeg_footer .fa-youtube-play:before {
+    color: #CD201F;
+}
+.jeg_footer .fa-facebook:before {
+    color: #1877F2;
+}
+.detail-page-header  .jeg_meta_date a {
+    font-size: 15px;
+}
+.ob_cards .jeg_posts {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+.ob_cards .thumbnail-container {
+    padding: 0;
+    height: auto;
+}
+.ob_cards .thumbnail-container>img {
+    position: static;
+}
+.ob_cards .jeg_pl_md_2 .jeg_postblock_content {
+    overflow: auto;
+}
+/*News ticker*/
+.jeg_news_ticker {
+    background: #e11010;
+}
+.jeg_breakingnews a {
+    color: #fff;
+    font-size: 15px;
+}
+.jeg_news_ticker_item .post-date {
+    color: #fff;
+}
+.jeg_news_ticker_arrow {
+    background: #950a0a;
+}
+.jeg_news_ticker_arrow:hover {
+    background: #950a0a;
+    opacity: 0.8;
+}
+.jeg_news_ticker_arrow:before {
+    color: #fff;
+}
+.jeg_breakingnews_title .fa {
+    margin-right: 0px;
+}
+.jeg_breakingnews_title {
+    letter-spacing: 0;
+}
+/*Ticker end*/
+/* QUote */
+.wid_quote .jeg_pl_lg_7 {
+    border: 0;
+}
+.wid_quote .jeg_thumb {
+    max-width: 100px;
+    margin: 0 auto -15px;
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+    border-radius: 4px;
+    height: 100px;
+    float: none;
+}
+.wid_quote .thumbnail-container {
+    position: static;
+    padding: 0;
+    height: auto;
+}
+.wid_quote .thumbnail-container img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+.wid_quote .jeg_postblock_content {
+    margin: 0;
+    background: #f1f1f1;
+    color: #1e1e1e;
+    border: 2px solid #eb6a79;
+    padding: 35px 20px 15px;
+    border-width: 1px 0;
+    position: relative;
+}
+.wid_quote .jeg_postblock_content:before {
+    content: '“';
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    color: #b3b3b3;
+    font-family: serif;
+    display: block;
+    font-size: 50px;
+    width: 20px;
+    height: 20px;
+    line-height: 50px;
+}
+.wid_quote .jeg_post_title {
+    line-height: 130%;
+    font-size: 16px;
+    text-align: center;
+}
+.wid_quote .jeg_post_title a {
+    color: #243a7c;
+    pointer-events: none;
+}
+.wid_quote .jeg_post_meta, .wid_quote .jeg_readmore {
+    display: none;
+}
+.wid_quote .jeg_post_excerpt p {
+    font-weight: bold;
+    font-size: 12px;
+}
+.wid_quote .jeg_block_title {
+    font-size: 16px;
+    float: none;
+    text-align: center;
+}
+.wid_quote .jeg_block_heading_6:after {
+    display: none;
+}
+.obituary_local_card .jeg_meta_author {
+    display: none;
+}
+/* QUote end */
+.jeg_post_meta .jeg_meta_category a {
+    color: #f70d28;
+}
+.detail-page-header .featured_image {
+    position: relative;
+}
+.detail-page-header .featured_image:after{
+    content: '';
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    width: 32px;
+    height: 32px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAfCAYAAACGVs+MAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKnSURBVHgBvVftcdswDH3p9X/VCcpOUGWCMBO0G1gb2J3A6gRxJog9QdMJ7EzgdAIpE1idwCVCQERofVC5xO8OEaUADyAIgjSQjszJ1slxQPasl4yPkYMf6n3npFbvc9b5iv4Ab5wsnJR4BcjwAD9Lmsm9+p+Bn6EZ4bCJei0uEGY+4/EfJ9+c5E42rHfFpJsETuJpmKcPj+AJUgC/2VmN88Gwv2sKgFJ2yVGlImcxTPQ40d44qZxcSBF+QVr1ks4cIWMktDxUfJT20slTAo+RgWSgTjQiJ7dOVjzWKJwsEbKSwkf+k6qWiCulJ4Vb4OXWNay3wLjzo7yMBWAiHXJ4YEdbflYIgeQ9nJa/W0wMYO3kLiIpIp2FIhebVaRDge3Z16QAKkW8R0jvTeSkhM+IBHoY4DSpAWRKUcb0LHDabvX/sxHeNoAPGEbWMZbqj1PcKL0GE5CSAZkVpTXv0ZXii+26YDChBmhdCx6v4Vt3F+i7FCvp79EPMyWAEqG4aEYVO7NsZxG2o/DQeIY3CkCcLpXxGn45jvxcIaRbmhbeKgBCzo6WHcFpLDFcJycByFmwwzgMQp8vnfyFPwHpm4VPuUU4pIaQcZDtaXjv5B/S8Am+GelZ1vCXlU0iR6btKWXf8ToYTLyEMujcaGtA+vg55cB+/XmsZnMuNJjYLd8NkgG6Zsl5TpHRukqVy9ajvX7LYwPfjEjvGr4IC/id8BmhDzxFHD/Zlvw9sM3zH1qXOxXYSr1X6G4sW4QeksqRceDtQUbb0PL4QRmPXali2AQOci4/3S7lIx3HNY+NUi7Q//NqjtOCrfl5FXHER/YvhCxkOrI1QgrJaIfQ4WTbbHkGknZZglkPh1y/csWRs/N2ufQ2lO5Uozsr8YzljgCl38Wh9Rr17fn9P5p68ZfxXA39AAAAAElFTkSuQmCC') no-repeat center;
+}
+.jeg_featured.featured_image:empty {
+    display: none;
+}
+.ob_widget .jeg_block_heading:after {
+    display: none;
+}
+.ob_widget .jeg_block_heading {
+    margin: 0;
+    background: #333;
+}
+.ob_widget .jeg_block_title {
+    color: #ededed;
+    float: none;
+    text-align: center;
+    padding: 5px 0;
+}
+.ob_widget .jeg_post:before {
+    height: 37px;
+    width: 103px;
+    position: absolute;
+    left: 25px;
+    right: 0;
+    background: url('https://keraladeshabandhu.com/wp-content/themes/jnews/assets/img/rose.png') no-repeat;
+    content: '';
+    top: 104px;
+    z-index: 3;
+}
+
+.ob_widget .jeg_post {
+    margin: 0 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    padding: 20px 15px 50px;
+    background: linear-gradient(#ebebeb, transparent);
+    box-shadow: 0 25px 25px -30px #cfcfcf;
+    position: relative;
+}
+
+.ob_widget .jnews-edit-post.left {
+    display: none;
+}
+
+.ob_widget .thumbnail-container {
+    border: 1px solid #c96363;
+}
+
+.ob_widget .jeg_post_meta {
+    display: none;
+}
+.ob_widget .jeg_pl_sm .jeg_postblock_content {
+  margin: 0;
+}
+.jeg_meta_author a {
+    color: #000;
+}
+@media (min-width: 768px) {    
+    .posttitle-wrap #breadcrumbs {
+        display: none;
+    }
+    .jeg_slider_type_1 .jeg_slide_caption {
+        padding: 40px 20px 20px 0;
+    }
+    .posttitle-wrap {
+        background-color: transparent !important;
+    }
+}
+@media (max-width: 1024px) {
+    .jeg_pl_sm .jeg_postblock_content {
+        margin-left: 120px;
+    }
+    .jeg_pl_sm .jeg_thumb {
+        width: 120px;
+    }
+}
+@media (max-width: 767px) {
+    .posttitle-wrap {
+        padding: 20px;
+        background: #013f94;
+        color: #fff;
+        border-radius: 2px;
+        margin-bottom: 15px;
+    }
+    .jeg_singlepage .jeg_breadcrumbs {
+        display: none;
+    }
+    .posttitle-wrap .jeg_breadcrumbs {
+        display: block;
+    }
+    .posttitle-wrap #breadcrumbs span, .posttitle-wrap #breadcrumbs i {
+        display: none;
+    }
+    .posttitle-wrap #breadcrumbs .breadcrumb_last_link {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .posttitle-wrap #breadcrumbs .breadcrumb_last_link a {
+        color: #fff;
+    }
+    .entry-header .jeg_post_title{
+        color: #fff;
+        font-family: 'md-r', sans-serif;
+        font-weight: 400;
+        margin-bottom: 0;
+        letter-spacing: 0;
+    }
+    .jeg_meta_author {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .jeg_meta_date, .jeg_meta_date a {
+        color: #000;
+        font-weight: 500;
+    }
+    .jeg_slider_type_1 .jeg_caption_container {
+        padding: 0 2px 0 15px;
+    }
+    .entry-header .jeg_meta_category {
+        display: inline-block !important;
+    }
+}
