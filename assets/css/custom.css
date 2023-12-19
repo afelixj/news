@@ -296,7 +296,7 @@
     right: 0;
     background: url('https://keraladeshabandhu.com/wp-content/themes/jnews/assets/img/rose.png') no-repeat;
     content: '';
-    top: 104px;
+    top: 129px;
     z-index: 3;
 }
 
@@ -316,9 +316,15 @@
 .ob_widget .jnews-edit-post.left {
     display: none;
 }
-
 .ob_widget .thumbnail-container {
+    padding: 0;
+}
+.ob_widget .thumbnail-container img{
     border: 1px solid #c96363;
+    position: relative;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .ob_widget .jeg_post_meta {
@@ -330,7 +336,41 @@
 .jeg_meta_author a {
     color: #000;
 }
-@media (min-width: 768px) {    
+.jnews_comment_container {
+    display: none;
+}
+.jeg_slider .jeg_slide_caption {
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+}
+.jeg_slider .jeg_post_category {
+    top: 16px;
+    left: 16px;
+    position: absolute;
+}
+.jeg_slider .jeg_post_meta a {
+    font-weight: normal;
+}
+.jeg_slider .jeg_slide_caption .jeg_meta_date {
+    font-size: 12px;
+}
+.jeg_ad.jeg_article.jnews_content_bottom_ads {
+    margin: 40px 0;
+}
+.jeg_meta_author .meta_text {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    background: url('https://keraladeshabandhu.com/wp-content/themes/jnews/assets/img/pen.svg') no-repeat;
+    position: relative;
+    top: -3px;
+}
+@media (min-width: 768px) {
+    .jeg_slider .jeg_post_category {
+        left: 30px;
+    }
     .posttitle-wrap #breadcrumbs {
         display: none;
     }
@@ -339,6 +379,26 @@
     }
     .posttitle-wrap {
         background-color: transparent !important;
+    }
+    .jeg_ad.jeg_article.jnews_content_bottom_ads {
+        margin: 50px 0;
+    }
+    .jeg_pl_md_5 .jeg_post_title {
+        font-size: 23px;
+    }
+    .jeg_pl_lg_2 .jeg_post_title {
+        font-size: 23px;
+        line-height: 110%;
+    }
+    .popularpost_item:first-child .jeg_post_title {
+        font-size: 23px;
+    }
+    .jeg_pl_md_box .jeg_post_title {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .jeg_pl_lg_1 .jeg_post_title, .jeg_pl_lg_1 .jeg_post_title {
+        font-size: 23px;
     }
 }
 @media (max-width: 1024px) {
@@ -351,7 +411,7 @@
 }
 @media (max-width: 767px) {
     .posttitle-wrap {
-        padding: 20px;
+        padding: 16px 15px;
         background: #013f94;
         color: #fff;
         border-radius: 2px;
@@ -379,9 +439,10 @@
         font-weight: 400;
         margin-bottom: 0;
         letter-spacing: 0;
+        font-size: 29px !important;
     }
     .jeg_meta_author {
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 500;
     }
     .jeg_meta_date, .jeg_meta_date a {
@@ -393,5 +454,51 @@
     }
     .entry-header .jeg_meta_category {
         display: inline-block !important;
+    }
+    .jeg_slider_type_1 .jeg_slide_caption .jeg_post_title {
+        font-size: 23px;
+    }
+    .jeg_pl_lg_2 .jeg_post_title {
+        font-size: 20px;
+        line-height: 110%;
+    }
+    .jeg_slider_type_1 .jeg_meta_author {
+        font-size: 14px;
+    }
+    .jeg_pl_md_5 .jeg_post_title {
+        font-size: 21px;
+    }
+    .jeg_postblock_19 .jeg_pl_md_box .jeg_post_title, .jeg_postblock_24 .jeg_pl_md_box .jeg_post_title {
+        font-size: 20px;
+    }
+    .jeg_pl_md_box .jeg_meta_date a {
+        font-size: 12px;
+    }
+    .jeg_slider .jeg_post_category {
+        top: -2px;
+    }
+    .jeg_postblock_5 .jeg_meta_author{
+        font-size: 13px;
+    }
+    .jeg_meta_date, .jeg_meta_date a {
+        font-size: 13px;
+    }
+    .jeg_slider .jeg_slide_caption {
+        padding-bottom: 5px;
+    }
+    .jeg_slider_type_1 .jeg_slide_caption .jeg_post_title {
+        margin-bottom: 0;
+    }
+    .jeg_hero_item_1 .jeg_post_info .jeg_post_title {
+        max-width: 100% !important;
+        font-size: 20px !important;
+        line-height: 120%;
+    }
+    .jeg_hero_style_1 .jeg_postblock_content {
+        padding: 0 15px 10px;
+    }
+    .jeg_pl_md_2 h3.jeg_post_title {
+        font-size: 19px;
+        font-weight: 600;
     }
 }
